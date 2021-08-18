@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekeeda Certificate</title>
+    <style>
+        * {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: bellandha-signature;
+    src: url(../fonts/bellandha-signature.regular.ttf);
+}
+
+@font-face {
+    font-family: bellandha-signature1;
+    src: url(./fonts/bellandha-signature.regular\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: Myriad;
+    src: url(./fonts/Myriad.ttf);
+}
+
+@font-face {
+    font-family: Myriadb;
+    src: url(./fonts/Myriadb.ttf);
+}
+
+@font-face {
+    font-family: Myriadi;
+    src: url(./fonts/Myriadi.ttf);
+}
+
+@font-face {
+    font-family: MyriadWebPro-Bold;
+    src: url(./fonts/MyriadWebPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: MyriadWebPro-Condensed;
+    src: url(./fonts/MyriadWebPro-Condensed.ttf);
+}
+
+@font-face {
+    font-family: MyriadWebPro-CondensedIt;
+    src: url(./fonts/MyriadWebPro-CondensedIt.ttf);
+}
+
+@font-face {
+    font-family: MyriadWebPro-Italic;
+    src: url(./fonts/MyriadWebPro-Italic.ttf);
+}
+
+@font-face {
+    font-family: MyriadWebPro;
+    src: url(./fonts/MyriadWebPro.ttf);
+}
+
+@font-face {
+    font-family: Blacklist;
+    src: url(./fonts/The\ Blacklist.ttf);
+}
+
+@font-face {
+    font-family: Blacklist1;
+    src: url(./fonts/The\ Blacklist\ \(1\).ttf);
+}
+
+.proud {
+    font-family: Myriad;
+    position: absolute;
+    top: 40vh;
+    left: 51vw;
+    font-size: 2.4vh;
+    color: #2A2A2A;
+}
+
+.name {
+    font-family: Blacklist1;
+    position: absolute;
+    top: 47vh;
+    left: 47vw;
+    font-size: 12vh;
+    color: #003B79;
+}
+
+.passing {
+    font-family: MyriadWebPro;
+    position: absolute;
+    top: 62vh;
+    left: 47vw;
+    font-size: 2.4vh;
+    max-width: 30vw;
+    text-align: center;
+    color: #2A2A2A;
+}
+
+.mahesh_wagh_sign {
+    font-family: bellandha-signature;
+    position: absolute;
+    top: 77vh;
+    left: 50vw;
+    font-size: 5.5vh;
+    max-width: 30vw;
+    text-align: center;
+}
+
+.mahesh_wagh_sign_underline {
+    position: absolute;
+    top: 84vh;
+    left: 50vw;
+    width: 11vw;
+}
+
+.anagha_wagh_sign {
+    font-family: bellandha-signature;
+    position: absolute;
+    top: 77vh;
+    left: 66vw;
+    font-size: 5.5vh;
+    max-width: 30vw;
+    text-align: center;
+}
+
+.anagha_wagh_sign_underline {
+    position: absolute;
+    top: 84vh;
+    left: 66vw;
+    width: 11vw;
+}
+
+.regards_mahesh {
+    position: absolute;
+    top: 85.5vh;
+    left: 52vw;
+    font-size: 2vh;
+    font-family: Myriadb;
+}
+
+.regards_anagha {
+    position: absolute;
+    top: 85.5vh;
+    left: 68.7vw;
+    font-size: 2vh;
+    font-family: Myriadb;
+}
+
+.subtitle_mahesh {
+    position: absolute;
+    top: 88vh;
+    left: 53vw;
+    font-size: 1.2vh;
+    font-family: Myriad;
+    color: #2A2A2A;
+}
+
+.subtitle_anagha {
+    position: absolute;
+    top: 88vh;
+    left: 69vw;
+    font-size: 1.2vh;
+    font-family: Myriad;
+    color: #2A2A2A;
+}
+
+.degree {
+    font-family: MyriadWebPro-Bold;
+}
+
+@media screen and (max-width: 1450px) {
+    .passing {
+        max-width: 35vw;
+    }
+
+    .name {
+        font-size: 11vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .passing {
+        max-width: 39vw;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .proud {
+        font-size: 1.5vh;
+        top: 45vh;
+        left: 48vw;
+    }
+
+    .name {
+        top: 50vh;
+        left: 47vw;
+        font-size: 6vh;
+        color: #003B79;
+    }
+    
+    .passing {
+        top: 58vh;
+        left: 47vw;
+        font-size: 1.5vh;
+        max-width: 40vw;
+    }
+    
+    .mahesh_wagh_sign {
+        top: 65vh;
+        left: 50vw;
+        font-size: 3vh;
+        max-width: 30vw;
+        text-align: center;
+    }
+    
+    .mahesh_wagh_sign_underline {
+        position: absolute;
+        top: 70vh;
+        left: 50vw;
+        width: 15vw;
+    }
+    
+    .anagha_wagh_sign {
+        top: 65vh;
+        left: 70vw;
+        font-size: 3vh;
+        max-width: 30vw;
+        text-align: center;
+    }
+    
+    .anagha_wagh_sign_underline {
+        position: absolute;
+        top: 70vh;
+        left: 70vw;
+        width: 15vw;
+    }
+    
+    .regards_mahesh {
+        top: 71vh;
+        left: 52vw;
+        font-size: 1.3vh;
+        font-family: Myriadb;
+    }
+    
+    .regards_anagha {
+        top: 71vh;
+        left: 72vw;
+        font-size: 1.3vh;
+        font-family: Myriadb;
+    }
+    
+    .subtitle_mahesh {
+        top: 72.8vh;
+        left: 53vw;
+        font-size: 0.8vh;
+    }
+    
+    .subtitle_anagha {
+        top: 72.8vh;
+        left: 72.5vw;
+        font-size: 0.8vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .proud {
+        font-size: 1.2vh;
+        top: 45vh;
+        left: 48vw;
+    }
+
+    .name {
+        top: 48vh;
+        left: 47vw;
+        font-size: 4.5vh;
+        color: #003B79;
+    }
+    
+    .passing {
+        top: 54vh;
+        left: 47vw;
+        font-size: 1vh;
+        max-width: 40vw;
+    }
+    
+    .mahesh_wagh_sign {
+        top: 60vh;
+        left: 50vw;
+        font-size: 2vh;
+        max-width: 30vw;
+        text-align: center;
+    }
+    
+    .mahesh_wagh_sign_underline {
+        position: absolute;
+        top: 63vh;
+        left: 49vw;
+        width: 15vw;
+    }
+    
+    .anagha_wagh_sign {
+        top: 60vh;
+        left: 70vw;
+        font-size: 2vh;
+        max-width: 30vw;
+        text-align: center;
+    }
+    
+    .anagha_wagh_sign_underline {
+        position: absolute;
+        top: 63vh;
+        left: 69vw;
+        width: 15vw;
+    }
+    
+    .regards_mahesh {
+        top: 64vh;
+        left: 51vw;
+        font-size: 1.1vh;
+        font-family: Myriadb;
+    }
+    
+    .regards_anagha {
+        top: 64vh;
+        left: 71vw;
+        font-size: 1.1vh;
+        font-family: Myriadb;
+    }
+    
+    .subtitle_mahesh {
+        top: 66vh;
+        left: 51.5vw;
+        font-size: 0.8vh;
+    }
+    
+    .subtitle_anagha {
+        top: 66vh;
+        left: 70.5vw;
+        font-size: 0.8vh;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="background_img">
+        <img src="./images/BG.png" width="100%">
+        <div class="proud">We are proud to present this certificate to</div>
+        <div class="name">Asha Rawat</div>
+        <div class="passing">For passing the examination on <span class="degree">GATE Civil Engineering</span> and scoring <span class="degree">91% Marks</span> on 4th June 2021</div>
+        <div class="mahesh_wagh_sign">Mahesh Wagh</div><hr class="mahesh_wagh_sign_underline">
+        <div class="regards_mahesh">Mahesh Wagh</div><div class="subtitle_mahesh">Founder of Ekeeda</div>
+        <div class="anagha_wagh_sign">Anagha Wagh</div><hr class="anagha_wagh_sign_underline">
+        <div class="regards_anagha">Anagha Wagh</div><div class="subtitle_anagha">Co-Founder of Ekeeda</div>
+    </div>
+</body>
+</html>
